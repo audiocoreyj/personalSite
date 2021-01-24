@@ -1,0 +1,270 @@
+/* Master Styles */
+
+body {
+    margin: 0px;
+    font-family: 'Teko', sans-serif;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*  Navigation Styles */
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-wrapper1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-side {
+    display: flex;
+    
+}
+
+.left-side1 {
+    display: flex;
+    
+}
+
+.right-side {
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+.nav-wrapper > .left-side > div {
+
+    margin-right: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav-wrapper1 > .left-side1 > div {
+
+    margin-right: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper1 {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+
+}
+
+.nav-link-wrapper a {
+    color: deepskyblue;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link-wrapper1 a {
+    color: deepskyblue;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.nav-link-wrapper1 a:hover {
+    color: black;
+}
+/* Portfolio Styles  */
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    font-size: 25px;
+    font-weight:50;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 30;
+    font-family: 'Teko', sans-serif;
+    padding-left: 150px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.img-darken {
+    transition: 0.5s;
+    filter: brightness(40%);
+}
+
+.influ-title {
+    padding-left: 30px;
+    word-wrap: break-word;
+}
+
+
+.influ-back {
+    background-image: url('road2.jpeg');
+    background-repeat: round;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-blend-mode: soft-light;
+    max-width: 100%;
+}
+
+.list li {
+    color: black;
+}
+
+.books-back {
+    background-image: url('goodreads.jpeg');
+    background-repeat: round;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-blend-mode: soft-light;
+    max-width: 100%;
+}
+
+.travel-back {
+    background-image: url('trav2.jpeg');
+    background-repeat: round;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-blend-mode: soft-light;
+    max-width: 100%;
+}
+
+.music-back {
+    background-image: url('ears1.jpeg');
+    background-repeat: round;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-blend-mode: soft-light;
+    max-width: 100%;
+}
+
+.music-text {
+    color: white;
+    text-decoration-color: white
+}
+
+.music-headers u {
+    font-size: 20px;
+}
+
+.about-img img {
+    padding-left: 30px;
+    width: 150px;
+    height: 250px;   
+    display: block;
+
+}
+
+.about2-img img {
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 150px;
+    height: 170px;
+
+
+
+}
+
+.facts p {
+    padding-left: 30px;
+    display: list-item;
+}
+
+.about-back {
+    background-image: url('mounta.jpeg');
+    background-repeat: round;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-blend-mode: soft-light;
+    max-width: 100%;
+}
+
+.persp-back {
+        background-image: url('20201.jpeg');
+    background-repeat: round;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-blend-mode: soft-light;
+    max-width: 100%;
+    
+}
+
+.li-wrapper u {
+    float: left;
+}
+
+.li-wrapper li {
+    padding-top: 10px;
+    float: left;
+    width: 250px;
+    clear: both;
+
+}
+
+.code-back {
+    background-image: url('bulb.jpeg');
+    background-repeat: round;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-blend-mode: soft-light;
+    
+}

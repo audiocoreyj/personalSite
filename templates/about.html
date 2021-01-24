@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+    
+{% block content %}
+    <body class="about-back"> 
+
+        <div class="about2-img">
+            <img src="{% static 'css/prof.jpg' %}" alt="Me">
+        </div>
+            <div class="facts">
+            <ul>
+            <li><u>Born and Raised: </u> Los Angeles, CA and Long Beach, CA.</li>
+            <li><u>Pecking Order: </u> Third born of Four boys raised by a single mother.</li>
+            <li><u>Hobbies: </u>Exercising, Programming, Hiking, and Reading.</li>
+            <li><u>Descriptive Words: </u>Inquisitive, Analytical, Focused and Deliberative.</li>
+            <li><u>Childhood Interest(s): </u>Football, Producing Music, Skateboarding and Snowboarding.</li>
+            <li><u>Ideal Superpower: </u>Precognition.</li>
+            <li><u>Favorite Podcast: </u>The Tim Ferriss Show.</li>
+            <li><u>Favorite TV Show: </u>The Blacklist.</li>
+            <li><u>Super Hero: </u> Iron Man.</li>
+            <li>More to come soon ...</li>
+            </ul>
+            
+        </div>     
+
+</body>
+{% endblock content %}
+</html>
+
