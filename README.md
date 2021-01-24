@@ -28,7 +28,7 @@ Project is created with:
 To run this project, download the files and then run the following commands in your terminal:
 
 Command | Description
---------|--------------------------------
+-------------|--------------------------------
 $ cd ../pages | Navigate to the pages directory which will likely be located in your downloads folder.
 $ pipenv install django==3.7.6 |Use this command to create a new virtual environment and install django.
 $ pipenv shell | Use this command to activate your virtual environment.
